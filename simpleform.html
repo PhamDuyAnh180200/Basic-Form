@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+</head>
+<body>
+<form action="simpleform.html" method="get">
+    <h2>Order form</h2>
+    <p>What would you like to buy</p>
+    <select>
+        <option value="">A</option>
+        <option value="1">B (+1$)</option>
+        <option value="2">C (+1$)</option>
+    </select>
+    <p>How many would you like to order?</p>
+    <input type="radio" name="rd" value="1" checked> 10$<br>
+    <input type="radio" name="rd" value="2" >  20$ <br>
+    <input type="radio" name="rd" value="3"> 30$ <br>
+</form>
+<p>Name <span style="color: red">*</span></p>
+<form>
+    First name: <br>
+    <input type="text" name="first name"> <br>
+    Last name: <br>
+    <input type="text" name="last name">
+</form>
+<p>Email</p>
+<input type="text" name="email">
+<p>Phone Number</p>
+<input type="text" name="Number">
+<p><input type="button" onclick="alert('Thanks You')" value="Click Me" ></p>
+
+</body>
+</html>
